@@ -1,6 +1,11 @@
 .today-weather-container {
   position: fixed;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
   background-color: rgb(5, 2, 103);
   width: 310px;
   top: 0;
@@ -11,7 +16,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 200px 0;
   gap: 20px;
 }
 
