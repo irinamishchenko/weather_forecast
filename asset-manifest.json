@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/weather_forecast/static/css/main.a9a2e776.css",
+    "main.css": "/weather_forecast/static/css/main.ce1a253f.css",
     "main.js": "/weather_forecast/static/js/main.5d689467.js",
     "static/media/naples.jpg": "/weather_forecast/static/media/naples.260146b2fec458747f3e.jpg",
     "static/media/riga.jpg": "/weather_forecast/static/media/riga.7082f50d67953ec3fe14.jpg",
@@ -42,11 +42,11 @@
     "static/media/lisbon.jpg": "/weather_forecast/static/media/lisbon.3190156e84f8dd957e3c.jpg",
     "static/media/tallinn.jpg": "/weather_forecast/static/media/tallinn.da5f7f4668d118c35807.jpg",
     "index.html": "/weather_forecast/index.html",
-    "main.a9a2e776.css.map": "/weather_forecast/static/css/main.a9a2e776.css.map",
+    "main.ce1a253f.css.map": "/weather_forecast/static/css/main.ce1a253f.css.map",
     "main.5d689467.js.map": "/weather_forecast/static/js/main.5d689467.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9a2e776.css",
+    "static/css/main.ce1a253f.css",
     "static/js/main.5d689467.js"
   ]
 }
