@@ -1,0 +1,32 @@
+.each-day-weather-container {
+  width: 1100px;
+  margin-bottom: 50px;
+}
+
+.each-day-weather-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+
+.each-day-weather-list {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+}
+
+.each-day-weather-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.each-day-weather-list-item-title {
+  font-family: "Roboto", sans-serif;
+  color: grey;
+}
+
+.each-day-weather-list-item-degrees {
+  font-family: "Roboto", sans-serif;
+}

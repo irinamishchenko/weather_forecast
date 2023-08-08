@@ -1,0 +1,11 @@
+@import "./../../node_modules/reset-css/";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+@import "./Main.css";
+@import "./TripList.css";
+@import "./ScrollButtons.css";
+@import "./EachDayWeather.css";
+@import "./TodayWeather.css";
+@import "./Timer.css";
+@import "./Modal.css";

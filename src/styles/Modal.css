@@ -1,0 +1,95 @@
+.modal {
+  width: 550px;
+  height: 450px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(189, 185, 185);
+}
+
+.modal-title {
+  font-family: "Roboto", sans-serif;
+}
+
+.modal-close-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal-close-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.create-form-label {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+  width: 520px;
+  padding-left: 15px;
+}
+
+.create-form-star {
+  color: red;
+  margin-right: 10px;
+}
+
+.create-form-input {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border: 1px solid rgb(182, 180, 180);
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.form-buttons {
+  height: 50px;
+  padding-right: 15px;
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 1px solid rgb(189, 185, 185);
+  margin-top: 60px;
+}
+
+.form-buttons input {
+  width: 70px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid rgb(182, 180, 180);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-buttons input:hover {
+  background-color: #2384e5;
+  border: none;
+  color: white;
+}

@@ -1,0 +1,36 @@
+.trips-list-buttons {
+  margin-bottom: 30px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trips-list-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trips-list-button:disabled {
+  border: 2px solid grey;
+}
+
+.trips-list-button:hover {
+  transform: scale(1.05);
+}
+
+.trips-list-button-icon-next,
+.trips-list-button-icon-prev {
+  width: 15px;
+  height: 15px;
+}
+
+.trips-list-button-icon-prev {
+  transform: rotate(180deg);
+}
