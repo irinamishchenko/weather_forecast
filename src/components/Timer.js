@@ -13,8 +13,8 @@ function Timer(props) {
   }, [startDate]);
 
   function initializeClock(startDate) {
-    let timeLeft = getTimeRemaining(startDate);
     let timeInterval = setInterval(function () {
+      let timeLeft = getTimeRemaining(startDate);
       if (timeLeft.total <= 0) {
         clearInterval(timeInterval);
       }

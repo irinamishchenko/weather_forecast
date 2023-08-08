@@ -11,7 +11,6 @@ import plus from "./../images/icons/plus.png";
 import sort from "./../images/icons/sort.png";
 
 function TripsList(props) {
-  console.log(process.env.REACT_APP_API_KEY);
   const search = props.search;
 
   const [trips, setTrips] = useState(data);
